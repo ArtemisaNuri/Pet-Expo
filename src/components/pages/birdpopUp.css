@@ -1,0 +1,50 @@
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .ReactModal__Content {
+    background-color: #fff; 
+    border-radius: 8px;
+    max-width: 400px;
+    padding: 20px;
+    margin-left: 35%;
+  }
+  
+  .ReactModal__Content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .ReactModal__Content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .ReactModal__Content p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  .ReactModal__Content button {
+    border: none;
+    outline: none;
+    background-color: #007bff; 
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .ReactModal__Content button:hover {
+    background-color: #0056b3;
+  }
+  

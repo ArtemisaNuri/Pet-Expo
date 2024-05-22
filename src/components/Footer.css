@@ -1,0 +1,22 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+  }
+  
+  .footer-container a {
+    margin: 0 15px;
+  }
+  
+  .footer-container img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+  }
+  
+  .footer-container img:hover {
+    transform: scale(1.2);
+  }
+  
